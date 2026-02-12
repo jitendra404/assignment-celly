@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Calley Automation Suite" verbose="1">
+
+    <test name="01 - User Registration">
+        <classes>
+            <class name="tests.RegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="02 - User Login">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="03 - Add Agent">
+        <classes>
+            <class name="tests.AgentTest"/>
+        </classes>
+    </test>
+
+    <test name="04 - CSV Upload (Power Import)">
+        <classes>
+            <class name="tests.CSVUploadTest"/>
+        </classes>
+    </test>
+
+</suite>
